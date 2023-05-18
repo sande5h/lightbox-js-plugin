@@ -7,7 +7,7 @@ Plugin Author : Sandesh Bhusal
 //function to include html popup
 function includePopup() {
   let html =
-    '<div id="i-popup"><span class="close" onClick="closePopup()"><img id="n-pop"src="./btn/close.png" alt="" ;"></span><img id="left-arrow"src="./btn/left-arrow.png"alt="logo"><img id="right-arrow" src="./btn/right-arrow.png"alt="logo"><img id="main-pop-image" src="/images/1.jpg" alt="logo" ></div>';
+    '<div id="i-popup"><span class="close" onClick="closePopup()"><img id="n-pop"src="./images/close.png" alt="" ;"></span><img id="left-arrow"src="./images/left-arrow.png"alt="logo"><img id="right-arrow" src="./images/right-arrow.png"alt="logo"><img id="main-pop-image" src="./images/1.jpg" alt="logo" ></div>';
 
   let popdiv = document.createElement("div");
   popdiv.innerHTML = html;
