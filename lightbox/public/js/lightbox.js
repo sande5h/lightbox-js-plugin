@@ -11,6 +11,7 @@ function includePopup() {
 
   let popdiv = document.createElement("div");
   popdiv.innerHTML = html;
+  
 
   document.body.insertBefore(popdiv, document.body.firstChild); // adding as first div
 }
